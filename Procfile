@@ -1,1 +1,1 @@
-web: gunicorn crowdfunderBackend/crowdfunderPledges.wsgi
+web: cd crowdfunderBackend && gunicorn crowdfunderPledges.wsgi
