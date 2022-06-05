@@ -136,7 +136,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:52361",
-    "http://localhost:3000",
     "frontend-mentor-crowdfunder-app.vercel.app",
 ]
